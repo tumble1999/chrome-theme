@@ -1,0 +1,41 @@
+{
+  "manifest_version": 2,
+
+  "name": "Tumble Network",
+  "description": "This extension shows a Google Image search result for the current page",
+
+  "homepage_url":"http://example.com",
+  "version": "0.0",
+
+
+  "theme" : {
+    "images" : {
+         //"theme_button_background": "images/theme_button_background.png",
+         "theme_frame": "images/theme_frame.png",
+         //"theme_ntp_background": "images/ntp_background.png",
+         "theme_tab_background": "images/theme_tab_background.png",
+         "theme_tab_background_glass": "images/theme_tab_background_glass.png",
+         "theme_tab_background_incognito": "images/theme_tab_background_incognito.png",
+         "theme_toolbar": "images/theme_toolbar.png",
+         "theme_window_control_background": "images/theme_window_control_background.png"
+    },
+    "colors" : {
+      "frame" : [244, 67, 54],
+      "toolbar" : [244, 67, 54],
+      "ntp_text" : [20, 40, 0],
+      "ntp_link" : [36, 70, 0],
+      "ntp_background" : [244, 67, 54],
+      "button_background" : [255, 255, 255],
+      "bookmark_text": [255,255,255],
+      "tab_text": [255,255,255],
+      "tab_background_text": [255,255,255]
+    },
+    "tints" : {
+      "buttons" : [0, 0, 0]
+    },
+    "properties" : {
+      "ntp_background_alignment" : "center",
+      "ntp_background_size":"100%"
+    }
+  }
+}
