@@ -4,7 +4,7 @@
   "name" : "TumbleNet Chrome Theme",
   "description" : "Theme",
   "version" : "0.2",
-
+  "update_url" : "https://tumble1999.github.io/chrome-theme/updates.xml",
 
   "theme" : {
     "images" : {
