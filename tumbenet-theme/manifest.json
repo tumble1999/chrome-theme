@@ -1,0 +1,57 @@
+{
+  "manifest_version" : 2,
+
+  "name" : "TumbleNet Chrome Theme",
+  "description" : "Theme",
+  "version" : "0.2",
+
+
+  "theme" : {
+    "images" : {
+      "theme_frame" : "images/theme_frame.png", 
+      "theme_frame_inactive" : "images/theme_frame_inactive.png", 
+      "theme_frame_incognito" : "images/theme_frame_incognito.png", 
+      "theme_frame_incognito_inactive" : "images/theme_frame_incognito_inactive.png", 
+      "theme_toolbar" : "images/theme_toolbar.png", 
+      "theme_tab_background" : "images/theme_tab_background.png", 
+      "theme_tab_background_incognito" : "images/theme_tab_background_incognito.png", 
+      "theme_tab_background_v" : "images/theme_tab_background_v.png",
+      "theme_ntp_background" : "images/theme_ntp_background.png", 
+      "theme_ntp_attribution" : "images/theme_ntp_attribution.png" 
+    },
+    "colors" : {
+      "frame" : [0, 0, 0], 
+      "frame_inactive" : [0, 0, 0], 
+      "frame_incognito" : [0, 0, 0], 
+      "frame_incognito_inactive" : [0, 0, 0], 
+      "toolbar" : [244, 67, 54], 
+      "tab_text" : [232, 232, 232], 
+      "tab_background_text" : [255,255,255], 
+      "bookmark_text" : [255,255,255],
+      "ntp_background" : [244, 67, 54], 
+      "ntp_text": [255,255,255], 
+      "ntp_link": [255,255,255], 
+      "ntp_link_underline" : [255,255,255],
+      "ntp_header" : [94, 94, 94], 
+      "ntp_section" : [94, 94, 94], 
+      "ntp_section_text" : [246, 255, 213], 
+      "ntp_section_link" : [246, 255, 213], 
+      "ntp_section_link_underline" : [246, 255, 213], 
+      "control_background" : [244, 67, 54], 
+      "button_background" : [244, 67, 54] 
+    },
+    "tints" : {
+      "buttons" : [255, 255, 255],
+      "frame" : [255, 255, 255],
+      "frame_inactive" : [255, 255, 255],
+      "frame_incognito" : [255, 255, 255],
+      "frame_incognito_inactive" : [255, 255, 255],
+      "background_tab" : [255, 255, 255]
+    },
+    "properties" : {
+      "ntp_background_alignment" : "left top", 
+      "ntp_background_repeat" : "no-repeat", 
+      "ntp_logo_alternate" : "1" 
+    }
+  }
+}
